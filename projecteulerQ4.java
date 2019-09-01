@@ -5,11 +5,11 @@ public class projecteulerQ4
     {
      int d,r=0;
      int maxPalindrome=0,ab,temp_ab;
-     for( int a=1;a<12;a++)
+     for( int a=100;a<1000;a++)
      {
-        for(int  b=1;b<12;b++)
+        for(int  b=100;b<1000;b++)
           {
-           ab=b*b;
+           ab=a*b;
            temp_ab=ab;
            while(temp_ab!=0)
             {  
