@@ -3,12 +3,13 @@ public class projecteulerQ4
     public static void main(String[] args )
     
     {
-     int d,r=0;
+     int d,r;
      int maxPalindrome=0,ab,temp_ab;
      for( int a=100;a<1000;a++)
      {
         for(int  b=100;b<1000;b++)
           {
+           r=0;
            ab=a*b;
            temp_ab=ab;
            while(temp_ab!=0)
@@ -29,5 +30,3 @@ public class projecteulerQ4
   
    }
 }
-
-   
