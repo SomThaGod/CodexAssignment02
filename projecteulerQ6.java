@@ -2,15 +2,13 @@ public class  projecteulerQ6
 {
     public static void main(String args[])
     {
-        int sumOfSquares=0,squareOfSum=0,diff;
-        int n=100;
-         for(int i=1;i<=n;i++)
-            {
-                squareOfSum+=i;
-                sumOfSquares+=i*i;
-            }
-         squareOfSum=squareOfSum*squareOfSum;
-         diff=squareOfSum-sumOfSquares;
-         System.out.print(diff);
+        int n=100,a,b;  //a=1+2+3+...+n;
+        int  diff;      //b=1^2 + 2^2 + 3^2 +...+n^2;
+        a=(n*(n+1))/2;
+        b=n*(n+1)*(2*n+1)/6;
+        diff=(a*a)-b;       //diff=(1+2+3+...+n)^2 - (1^2 + 2^2 + 3^2 +...+n^2)
+        System.out.print(diff);
+        
     }
-    }
+    
+}
